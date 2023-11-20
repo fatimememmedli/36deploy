@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .container-login {
+  margin-top: 40px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(103, 132, 234);
+  background: radial-gradient(
+    circle,
+    rgba(103, 132, 234, 1) 17%,
+    rgba(199, 141, 255, 1) 100%
+  );
+  padding: 50px;
+
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container .container-register {
+  margin-top: 40px;
+  text-align: center;
+
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: rgb(103, 132, 234);
+  background: radial-gradient(
+    circle,
+    rgba(103, 132, 234, 1) 17%,
+    rgba(199, 141, 255, 1) 100%
+  );
+  padding: 50px;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

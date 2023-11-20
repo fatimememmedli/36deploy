@@ -1,0 +1,16 @@
+.table-container {
+  width: 100%;
+  padding: 30px 50px;
+  border: 2px solid green;
+}
+.post-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+}
+.edit-inputs {
+  display: flex;
+  gap: 10px;
+  padding: 10px 0px;
+}
